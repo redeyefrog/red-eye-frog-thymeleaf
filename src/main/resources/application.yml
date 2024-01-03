@@ -1,0 +1,14 @@
+logging:
+  level:
+    root: info
+    org.springframework: info
+    org.redeyefrog: debug
+  pattern:
+    console: "%red(%d{yyyy-MM-dd HH:mm:ss}) %yellow([%thread]) %highlight(%-5level) %logger - %green(%msg%n)"
+
+spring:
+  mvc:
+    static-path-pattern: /** # Path pattern used for /static, /public, /resources, /META-INF/resources
+#  devtools:
+#    restart:
+#      enabled: false # Disabling Restart
